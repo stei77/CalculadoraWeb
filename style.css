@@ -3,7 +3,6 @@
   margin: 0; padding: 0;
 }
 header {
-    font-size: large;
     display: flex;
     flex-direction: column;
     margin-top: 20px;
@@ -34,6 +33,7 @@ body {
     min-height: 100vh;
 }
 h1 {
+    font-size: 2.5rem;
     padding: 10px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
     color: #38973b;
@@ -165,10 +165,12 @@ footer {
 @media (max-width: 480px) {
     .calculadora{
         width: 90%;
+        height: auto;
         padding: 16px;
+        margin-top: 20px;
     }
     h1 {
-        font-size: 20px;
+        font-size: 35px;
         padding: 8px 15px;
     }
     header nav {
@@ -192,7 +194,13 @@ footer {
         font-size: 16px;
     }
     .imagen {
-    width: 70%;
+    width: 40%;
+    margin: 20px auto;
+    display: block;
+    .encabezado {
+        font-size: 16px;
+        gap: 6px;
+    }
     }
     footer {
         font-size: 12px;
