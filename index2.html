@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalculadoraWeb</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora Web</h1>
+        <nav>
+            <a href="https://steamcommunity.com/profiles/76561198419443613/">Steam</a>
+            <a href="https://www.instagram.com/stei_vera?stkn=MTFud2VhNmEzbmpicw%3D%3D&utm_source=qr">IG</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="calculadora">
+            <div class="encabezado">
+                <span>Calculadora Estándar</span>
+            </div>
+            <input id="pantalla" readonly value="0">
+            <div class="botonesSuperiores">
+                <button class="limpiar" onclick="limpiar()">C</button>
+                <button class="borrar" onclick="borrar()">⌫</button>
+            </div>
+            <div class="botones">
+                <button onclick="agregar('7')">7</button>
+                <button onclick="agregar('8')">8</button>
+                <button onclick="agregar('9')">9</button>
+                <button class="operacion" onclick="agregar('/')">/</button>
+                <button onclick="agregar('4')">4</button>
+                <button onclick="agregar('5')">5</button>
+                <button onclick="agregar('6')">6</button>
+                <button class="operacion" onclick="agregar('*')">*</button>
+                <button onclick="agregar('1')">1</button>
+                <button onclick="agregar('2')">2</button>
+                <button onclick="agregar('3')">3</button>
+                <button class="operacion" onclick="agregar('-')">-</button>
+                <button onclick="agregar('0')">0</button>
+                <button onclick="agregar('.')">.</button>
+                <button class="igual" onclick="calcular()">=</button>
+                <button class="operacion" onclick="agregar('+')">+</button>
+            </div>
+        </section>
+        <section>
+            <div class="icono">
+                <img src="icono.jpg" class="imagen"
+            </div>
+        </section>
+        <p>(Render mío, lol)</p>
+    </main>
+
+    <footer>
+        Hecho por Steiguer Vera Chávez
+    </footer>
+    <script src="script2.js"></script>
+</body>
+</html>
