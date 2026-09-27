@@ -12,6 +12,7 @@ nav {
     font-size: large;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 15px;
     margin-top: 15px;
 }
@@ -194,12 +195,12 @@ footer {
         font-size: 16px;
     }
     .imagen {
-    width: 40%;
+    width: 30%;
     margin: 20px auto;
     display: block;
     .encabezado {
-        font-size: 16px;
-        gap: 6px;
+        font-size: 10px;
+        gap: 4px;
     }
     }
     footer {
