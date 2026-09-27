@@ -175,7 +175,7 @@ footer {
         padding: 8px 15px;
     }
     header nav {
-        align-items: center;
+        margin-top: auto;
         gap: 10px;
         font-size: 14px;
     }
@@ -200,9 +200,12 @@ footer {
     margin: 20px auto;
     display: block;
     p {
-        margin-top: 2px;
+        margin-top: auto;
     }
     .encabezado {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         font-size: 8px;
         gap: 3px;
     }
