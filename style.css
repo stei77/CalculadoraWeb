@@ -175,6 +175,7 @@ footer {
         padding: 8px 15px;
     }
     header nav {
+        align-items: center;
         gap: 10px;
         font-size: 14px;
     }
@@ -198,9 +199,12 @@ footer {
     width: 30%;
     margin: 20px auto;
     display: block;
+    p {
+        margin-top: 2px;
+    }
     .encabezado {
-        font-size: 10px;
-        gap: 4px;
+        font-size: 8px;
+        gap: 3px;
     }
     }
     footer {
