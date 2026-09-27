@@ -168,8 +168,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 16px;
-    background-color: red;
+    font-size: 20px;
     }
     .calculadora{
         width: 90%;
@@ -214,6 +213,6 @@ footer {
     }
     footer {
         font-size: 12px;
-        margin-bottom: 20px; 
+        margin-bottom: 40px; 
     }
 }
